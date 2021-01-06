@@ -1,0 +1,174 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+
+/* style */
+body {  
+	font: 17px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.header .judul {
+	color:gray;
+	font: Sans Serif;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+	.menu{
+		height: 10p%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top: 0px;
+	margin-right: 3px;
+}
+.content {
+	padding: 20px;
+}
+.content h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.content .penulis{
+	font-size: 12px;
+	margin-top: -12px;
+}
+.content .penulis a{
+	color: salmon;
+	text-decoration: none;
+}
+
+.content p {
+	margin-bottom:20px;
+	text-align: justify;
+	font-size: 16px;
+}
+.footer {
+	background-color: #333;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 15px;
+}
+}
+    /* menu */
+     #navigation {
+                background-color : black;
+                width : 100%;
+                height : 5%;
+				border-bottom: 1px solid #ccc;
+            }
+           
+            #navigation ul {
+                padding:0;
+                margin:0;
+                list-style-type:none;
+            }
+           
+            #navigation ul li {
+                float:right;
+                position : relative;
+            }
+           
+            #navigation ul li a {
+                display:block;
+                padding:10px 20px;
+                color:#000000;
+                text-decoration:none;
+                font-family: calibri;
+            }
+           
+            #navigation ul li a:hover {
+                background-color:#72b626;
+            }
+           
+            /* Menu Dropdown */
+           
+            #navigation ul li ul {
+                display: none;
+            }
+           
+            #navigation ul li:hover ul {
+                display:block;
+                position: absolute;
+            }
+           
+            #navigation ul li:hover ul li a {
+                display:block;
+                background-color : black;
+                color : #fff;
+                width : 100px;
+                border-bottom : 0px;
+            }
+           
+            #navigation ul li:hover ul li a:hover {
+                background-color : #72b626;
+            }
+           
+            #navigation ul li:hover > a {background: #72b626;}
